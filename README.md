@@ -38,6 +38,11 @@
 6. 打开到刷课的列表页面（例如：http://stu.ityxb.com/preview/detail/9aaab225930241e39ecb5529afcd364f）
 7. 在重新刷新一下 应该就刷课完成了
 
+## 学习交流
+
+<img src="/img/qq.jpg" style="zoom:33%; float:left;" />
+<img src="/img/wechat.jpg" style="zoom:33%; float:left;" />
+
 ## 赞助
 
 微信扫一扫,请作者喝一杯咖啡?
