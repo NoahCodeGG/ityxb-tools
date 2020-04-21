@@ -12,8 +12,8 @@
 ###  功能实现列表
 
 - [x] 刷视频
-
 - [x] 刷习题
+- [x] 刷作业 
 
 ### 依赖环境
 
@@ -26,22 +26,32 @@
 
 - [x] Tampermonkey
 
-   
-
 ### 使用教程
 
+#### 刷课/刷习题
 1. 首先挑选一个可以添加拓展程序的浏览器
 2. 安装上Tampermonkey拓展插件
 3. 下载Release中的压缩包
 4. 将压缩包导入到Tampermonkey中
 5. 登录[传智播客|高校学习平台](http://stu.ityxb.com/)
 6. 打开到刷课的列表页面（例如：http://stu.ityxb.com/preview/detail/9aaab225930241e39ecb5529afcd364f）
-7. 在重新刷新一下 应该就刷课完成了
+7. 在重新刷新一下，应该就刷课完成了
+
+#### 刷作业
+1. 首先如上将我们脚本安装成功
+2. 打开到作业答题页面（例如：http://stu.ityxb.com/writePaper/busywork/79cac4b3847b4e67b87af7f41b5905af?courseId=0324a5d9794e4216b2c97a25b4a8b79a）
+3. 在重新刷新一下就可以看到已答的题目了
+
+#### 注意
+1. 脚本默认为不自动对简单题答题，若要开启到脚本编辑页面中设置 commit_jianda = true
+2. 脚本启用的时候会出现一个安全提示框，选择允许才可以使用
+   1. 因为其中调用题库的api地址我直接用的数据库外网地址，没有其他任何其他操作只是单纯的调用数据库信息
+   2. 正因为我是直接用的外网地址，也请各位大佬手下留情，做这个项目完全出于娱乐
 
 ## 学习交流
 
 <img src="/img/qq.jpg" style="zoom:33%; float:left;" />
-<img src="/img/wechat.jpg" style="zoom:33%; float:left;" />
+<img src="/img/wechat.png" style="zoom:33%; float:left;" />
 
 ## 赞助
 
